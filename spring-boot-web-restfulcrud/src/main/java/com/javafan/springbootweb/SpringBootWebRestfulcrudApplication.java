@@ -15,17 +15,4 @@ public class SpringBootWebRestfulcrudApplication {
         SpringApplication.run(SpringBootWebRestfulcrudApplication.class, args);
     }
 
-
-    @Bean
-    public ViewResolver myViewResolver() {
-        return new myViewResolver();
-    }
-    private static class myViewResolver implements ViewResolver{
-
-        @Override
-        public View resolveViewName(String s, Locale locale) throws Exception {
-            return null;
-        }
-
-    }
 }
